@@ -199,7 +199,7 @@ import store from './store';
   }
 
   // This object contains the only exposed methods from this module:
-  return {
+  export default {
     render: render,
     bindEventListeners: bindEventListeners,
   };

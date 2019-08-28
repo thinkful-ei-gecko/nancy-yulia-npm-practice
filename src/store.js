@@ -33,7 +33,7 @@
     this.searchTerm = term;
   };
 
-  return default {
+  export default {
     items: [],
     error: null,
     hideCheckedItems: false,
