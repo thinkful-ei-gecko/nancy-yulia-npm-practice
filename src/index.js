@@ -1,4 +1,6 @@
 'use strict';
+
+import $ from 'jquery';
 /* global shoppingList, store, api */
 
 $(document).ready(function() {
@@ -12,4 +14,3 @@ $(document).ready(function() {
     })
     .catch(err => console.log(err.message));
 });
-
