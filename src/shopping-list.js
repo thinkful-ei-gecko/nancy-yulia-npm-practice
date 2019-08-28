@@ -1,8 +1,6 @@
-'use strict';
-/* global store, api, $ */
-
-// eslint-disable-next-line no-unused-vars
-const shoppingList = (function(){
+import $ from 'jquery';
+import api from './api';
+import store from './store';
 
   function generateError(message) {
     return `
@@ -205,4 +203,3 @@ const shoppingList = (function(){
     render: render,
     bindEventListeners: bindEventListeners,
   };
-}());
